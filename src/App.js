@@ -5,7 +5,7 @@ const DraggableCore = Draggable.DraggableCore
 
 function App() {
   return (
-    <Draggable>
+    <Draggable cancel=".header">
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
