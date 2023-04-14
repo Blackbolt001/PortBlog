@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 const Draggable = require('react-draggable');
-const DraggableCore = Draggable.DraggableCore
 
 function App() {
   return (
